@@ -1,31 +1,38 @@
 {
-  "miniprogramRoot": "dist/",
-  "projectname": "watermark-canvas",
-  "description": "Add watermark for you photo",
-  "appid": "wxc8ead6867a05e4b3",
+  "description": "项目配置文件",
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
   "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "enhance": false,
-    "compileHotReLoad": false,
-    "postcss": false,
-    "minified": false,
+    "useCompilerPlugins": [
+      "typescript"
+    ],
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "coverView": false,
+    "postcss": false,
+    "minified": false,
+    "enhance": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true,
+    "compileHotReLoad": false,
+    "skylineRenderEnable": true
   },
-  "compileType": "miniprogram",
-  "libVersion": "3.3.1",
-  "srcMiniprogramRoot": "dist/",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {},
+  "srcMiniprogramRoot": "miniprogram/",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "trial",
   "packOptions": {
     "ignore": [],
     "include": []
   },
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
+  "appid": "wxc8ead6867a05e4b3"
 }
